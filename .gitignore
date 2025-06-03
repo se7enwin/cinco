@@ -1,0 +1,5 @@
+# Carpeta de Librerias Node
+node_modules
+# Arhivos Api Keys
+.env
+
