@@ -1,0 +1,134 @@
+<!-- Warm UP - Few examples of js & jsx syntax-->
+
+<!-- Assign html 5 document type-->
+<!DOCTYPE html>
+<!-- Main tag - Language-->
+<html lang="En">
+
+<head>
+    <!-- Set all language characters-->
+    <meta charset="utf8">
+    <!-- Assign width screen-->
+    <meta name="viewport" containt="width=device-width , initial-scale=1">
+    <!-- React local library -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <!-- React dom local library -->
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Babel local library -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+
+</head>
+
+<body>
+    <!-- Render Tags -->
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+
+    <!-- Conventional Function -->
+
+    <script>
+        function fn() {
+            console.log('Conventional Function');
+        }
+        fn();
+
+    </script>
+
+    <!-- Arrow Function -->
+    <script>
+        (() => console.log('Arrow Function'))()
+    </script>
+
+    <!-- Conventional Class -->
+    <script>
+
+        class Cl {
+
+            constructor(atr) {
+                this.atr = atr;
+            }
+            greeting() {
+
+                return console.log(this.atr)
+            }
+        }
+        const object01 = new Cl('Conventional Class');
+        object01.greeting();
+
+    </script>
+
+    <!-- Function Component from Js -->
+    <script>
+
+        function FnCmJs(props) {
+
+            return React.createElement('h3', null, props)
+        }
+
+        const tag01 = document.getElementById('one');
+        const root01 = ReactDOM.createRoot(tag01);
+        root01.render(FnCmJs('Function Component from Js'))
+
+    </script>
+
+    <!-- Class Component from Js -->
+
+    <script>
+
+        class ClCmJs extends React.Component {
+
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return React.createElement('h3', null, this.props);
+            }
+        }
+        const tag02 = document.getElementById('two');
+        const root02 = ReactDOM.createRoot(tag02);
+        const object02 = new ClCmJs('Class Component from Js')
+        root02.render(object02.render());
+
+    </script>
+
+    <!-- Function Component from Jsx -->
+    <script type="text/babel">
+
+        function FnCmJsx(props) {
+
+            return (<h3>{props.fnjsx}</h3>)
+
+        }
+        const tag03 = document.getElementById('three');
+        const root03 = ReactDOM.createRoot(tag03);
+        const text01 = 'Function Component from Jsx';
+        root03.render(<FnCmJsx fnjsx={text01} />);
+
+    </script>
+
+    <!-- Class Component from Jsx -->
+    <script type="text/babel">
+
+        class ClCmJsx extends React.Component {
+
+            constructor(props) { super(props); }
+            render() {
+                return (
+
+                    <h3>{this.props.cljsx}</h3>
+                )
+            }
+        }
+        const tag04 = document.getElementById('four');
+        const root04 = ReactDOM.createRoot(tag04);
+        const text02 = 'Class Component from Jsx';
+        root04.render(<ClCmJsx cljsx={text02} />)
+    </script>
+
+
+</body>
+
+
+</html>
