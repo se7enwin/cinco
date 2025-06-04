@@ -1,3 +1,23 @@
+# Version Two
+Version Content
+---------------
+* Files
+   * package.json
+   * public & src folder
+   * App.jsx
+   * index.js
+   * index.html
+   * README.md
+* Development
+   * Json: Compatible version with ubuntu 18
+        *react, react-dom, redux, react-router-dom
+   * Install node_modules
+   * index.html update: Tag root
+   * App.jsx Function Component from Jsx Local
+   * index.js render App.jsx on root tag of index.html
+   * Content in README.md file
+   * Third branch uploaded
+
 # Version One
 
 Version Content
