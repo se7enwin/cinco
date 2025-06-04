@@ -7,11 +7,13 @@ Version Content
    * App.jsx
    * index.js
    * index.html
+   * package-lock.json
    * README.md
 * Development
    * Json: Compatible version with ubuntu 18
-      *react, react-dom, redux, react-router-dom
+      >react, react-dom, redux, react-router-dom
    * Install node_modules
+     > auto-generate: package-lock.json -> Node module detail
    * index.html update: Tag root
    * App.jsx Function Component from Jsx Local
    * index.js render App.jsx on root tag of index.html
