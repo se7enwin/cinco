@@ -10,7 +10,7 @@ Version Content
    * README.md
 * Development
    * Json: Compatible version with ubuntu 18
-        *react, react-dom, redux, react-router-dom
+      *react, react-dom, redux, react-router-dom
    * Install node_modules
    * index.html update: Tag root
    * App.jsx Function Component from Jsx Local
