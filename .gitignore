@@ -1,5 +1,4 @@
-# Carpeta de Librerias Node
+# Node Libraries Folder
 node_modules
-# Arhivos Api Keys
+# API Keys Files
 .env
-

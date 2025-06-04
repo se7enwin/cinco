@@ -8,7 +8,7 @@ Version Content
   * README.md
 
 * Development
-  * Warm Up index.html - React Component Syntax from Js & Jsx
+  * index.html Warm Up - React Component Syntax from Js & Jsx
   * Content in README.md file
   * Second branch uploaded 
 
