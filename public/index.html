@@ -6,8 +6,9 @@
 <html lang="En">
 
 <head>
+    <title> Example React Components from JS and JSX</title>
     <!-- Set all language characters-->
-    <meta charset="utf8">
+    <meta charset="UTF-8">
     <!-- Assign width screen-->
     <meta name="viewport" containt="width=device-width , initial-scale=1">
     <!-- React remote library -->
@@ -25,7 +26,6 @@
     <div id="two"></div>
     <div id="three"></div>
     <div id="four"></div>
-    <div id="root"></div>
 
     <!-- Conventional Function -->
 
@@ -67,10 +67,11 @@
 
             return React.createElement('h3', null, props)
         }
-
+        // What render
         const tag01 = document.getElementById('one');
-        const root01 = ReactDOM.createRoot(tag01);
-        root01.render(FnCmJs('Function Component from Js'))
+        const run01 = ReactDOM.createRoot(tag01);
+        // Where render
+        run01.render(FnCmJs('Function Component from Js'))
 
     </script>
 
@@ -87,10 +88,13 @@
                 return React.createElement('h3', null, this.props);
             }
         }
+        // Where render
         const tag02 = document.getElementById('two');
-        const root02 = ReactDOM.createRoot(tag02);
+        const run02 = ReactDOM.createRoot(tag02);
+        // Class instance
         const object02 = new ClCmJs('Class Component from Js')
-        root02.render(object02.render());
+        // What render
+        run02.render(object02.render());
 
     </script>
 
@@ -102,10 +106,13 @@
             return (<h3>{props.fnjsx}</h3>)
 
         }
+        // Where render
         const tag03 = document.getElementById('three');
-        const root03 = ReactDOM.createRoot(tag03);
+        const run03 = ReactDOM.createRoot(tag03);
+        // Text
         const text01 = 'Function Component from Jsx';
-        root03.render(<FnCmJsx fnjsx={text01} />);
+        // What render + Attach prop
+        run03.render(<FnCmJsx fnjsx={text01} />);
 
     </script>
 
@@ -122,10 +129,13 @@
                 )
             }
         }
+        // Where render
         const tag04 = document.getElementById('four');
-        const root04 = ReactDOM.createRoot(tag04);
+        const run04 = ReactDOM.createRoot(tag04);
+        // Text
         const text02 = 'Class Component from Jsx';
-        root04.render(<ClCmJsx cljsx={text02} />)
+        // What render + Attach prop
+        run04.render(<ClCmJsx cljsx={text02} />)
     </script>
 
 
