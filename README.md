@@ -29,8 +29,9 @@ Version Content
 Version Content
 ---------------
 
-* Files
+* New Files
   * index.html
+* Modified Files
   * README.md
 
 * Development
@@ -43,7 +44,7 @@ Version Content
 Version Content
 ---------------
 
-* Files
+* New Files
    * .gitignore
    * README.md
 
@@ -54,3 +55,4 @@ Version Content
   * First commit
   * Content in README.md file
   * First branch uploaded
+
