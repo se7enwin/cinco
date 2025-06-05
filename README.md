@@ -3,8 +3,9 @@
 Version Content
 ---------------
 
-* Files
+* New Files
   * index.html
+* Modified Files
   * README.md
 
 * Development
