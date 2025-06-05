@@ -3,16 +3,22 @@ Version Content
 ---------------
 * New Files
    * Component,Nav & About folder
+   * css-dom.js
+   * styleslynk.css
    * Nav.jsx
    * SetNav.jsx
    * About.jsx   
 * Modified Files
+  * index.html
   * index.js
   * App.jsx
   * README.md
 * Development
+   * index.html : add link external css file
+   * css-dom.js : create style for render html tags
+     > css from tag - css from style head - css from external file
    * index.js update: BrowserRouter
-   * About.jsx : How are
+   * About.jsx : Who are
    * SetNav.jsx : Basic non use input & button
    * App.jsx : Route about, render Nav
    * Content in README.md file

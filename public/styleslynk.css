@@ -1,0 +1,15 @@
+#three,
+#four {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: burlywood;
+    border: 1px dotted yellow;
+    border-radius: 10%;
+    box-shadow: 2px 2px 8px burlywood;
+}
