@@ -3,7 +3,7 @@
 Version Content
 ---------------
 
-* Files
+* New Files
    * .gitignore
    * README.md
 
