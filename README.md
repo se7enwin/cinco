@@ -16,6 +16,7 @@ Version Content
      > auto-generate: package-lock.json -> Node module detail
    * index.html update: Tag root
    * App.jsx Function Component from Jsx Local
+     > Add css color from jsx
    * index.js render App.jsx on root tag of index.html
    * Content in README.md file
    * Third branch uploaded
