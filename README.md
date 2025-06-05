@@ -22,32 +22,37 @@ Version Content
 # Version Two
 Version Content
 ---------------
-* Files
+* New Files
    * package.json
+   * package-lock.json
    * public & src folder
    * App.jsx
    * index.js
-   * index.html
-   * package-lock.json
-   * README.md
+* Modified Files
+  * index.html
+  * README.md
+    
 * Development
    * Json: Compatible version with ubuntu 18
-      >react, react-dom, redux, react-router-dom
+         >react, react-dom, redux, react-router-dom
    * Install node_modules
-     > auto-generate: package-lock.json -> Node module detail
-   * index.html update: Tag root
+     > auto-generate: package-lock.json -> Node module detail 
+   * index.html update: create Tag root
    * App.jsx Function Component from Jsx Local
+      > Add css color from jsx
    * index.js render App.jsx on root tag of index.html
    * Content in README.md file
    * Third branch uploaded
+
 
 # Version One
 
 Version Content
 ---------------
 
-* Files
+* New Files
   * index.html
+* Modified Files
   * README.md
 
 * Development
@@ -60,7 +65,7 @@ Version Content
 Version Content
 ---------------
 
-* Files
+* New Files
    * .gitignore
    * README.md
 
