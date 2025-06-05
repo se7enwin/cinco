@@ -1,7 +1,18 @@
+import Nav from "./Component/Nav/Nav";
+import About from "./Component/About/About"
+import { Route, Routes } from 'react-router-dom';
 export default function App() {
 
     return (
+        // Main Render Tag
+        <div>
 
-        <h3>Function Component from Local Jsx </h3>
+            {/* Add first css attribute from jsx syntax */}
+            <h3 style={{ color: 'green' }}>Function Component from Local Jsx </h3>
+            <Nav />
+            <Routes>
+                <Route path='/about' element={<About />} />
+            </Routes>
+        </div>
     )
 }

@@ -1,3 +1,24 @@
+# Version Three
+Version Content
+---------------
+* New Files
+   * Component,Nav & About folder
+   * Nav.jsx
+   * SetNav.jsx
+   * About.jsx   
+* Modified Files
+  * index.js
+  * App.jsx
+  * README.md
+* Development
+   * index.js update: BrowserRouter
+   * About.jsx : How are
+   * SetNav.jsx : Basic non use input & button
+   * App.jsx : Route about, render Nav
+   * Content in README.md file
+   * Fourth branch uploaded
+
+
 # Version Two
 Version Content
 ---------------
