@@ -15,8 +15,9 @@ Version Content
   * README.md
 * Development
    * index.html : add link external css file
-   * css-dom.js : create style for render html tags
+   * css-dom.js : create style for render html tags id one & two 
      > css from tag - css from style head - css from external file
+   * styleslynk.css : external styles for html tags id three & four
    * index.js update: BrowserRouter
    * About.jsx : Who are
    * SetNav.jsx : Basic non use input & button
