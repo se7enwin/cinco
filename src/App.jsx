@@ -11,6 +11,7 @@ export default function App() {
             <h3 style={{ color: 'green' }}>Function Component from Local Jsx </h3>
             <Nav />
             <Routes>
+                {/* url path to About.jsx*/}
                 <Route path='/about' element={<About />} />
             </Routes>
         </div>
