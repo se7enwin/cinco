@@ -1,3 +1,28 @@
+# Version Four
+Version Content
+---------------
+* New Files
+   * Card & Cards folder
+   * Card
+   * Cards 
+  
+* Modified Files
+  * App.jsx
+  * SetNav.jsx
+  * Nav.jsx
+  * README.md
+* Development
+   * App.jsx : create state - fetch api - link for cors - props to Nav - render cards
+   * SetNav.jsx : create state - handleSearch - Listeners: onChange & onClick - get list id - insert real id
+     > RealId: getCompleteSaintList mapToList pushRealIdOnarray getInputNumber ReturnRealId from input-subindiceArray
+   * Nav.jsx : props to SetNav   
+   * Card: receives props, returns h3 with respective properties
+     > name image constellation techniques rank
+   * Cards: receive props, render Card - attach properties
+   * Content in README.md file
+   * Fifth branch uploaded
+
+
 # Version Three
 Version Content
 ---------------
