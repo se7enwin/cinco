@@ -6,11 +6,11 @@ export default function Cards(props) {
     console.log('Desde Cards: ', saint[0])
     return (
 
-        <div>
+        <div id='Cards'>
             {
 
                 saint?.map(a =>
-
+                    //Card's render- Attach attributes 
                     <Card
 
                         name={a.name}

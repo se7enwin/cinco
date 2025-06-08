@@ -2,7 +2,7 @@ export default function () {
 
     return (
 
-        <h3> New Module of https://miniweb.ar </h3>
+        <h3> https://miniweb.ar & http://webmini.es new Module</h3>
     )
 
 }

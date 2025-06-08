@@ -1,10 +1,40 @@
+# Version Five
+Version Content
+---------------
+* New Files
+  * img folder
+  * Background-1.jpg
+    > From: https://www.saintseiya.com.es/
+    
+* Modified Files
+  * .env 
+  * App.jsx
+  * css-dom.js
+  * Card.jsx
+  * Cards.jsx
+  * styleslynk.css
+  * README.md
+* Development
+   * .env : add url-api
+   * App.jsx : reemplace url with env - assign ids on tags 
+   * css-dom.js: hide ids warmUpHtml - main background - update title
+     > WarmUpHtml: id one,two,three,four (syntax examples)
+   * Card: add id to tag
+   * Cards: add id to tag - first letter in capital letters - render only one
+     >render only one: first sub index techniques array  
+   * SetNav: add it to tag 
+   * styleslynk.css: styles to Cards, Card, img, five, Nav, input
+     > style to five: hide
+   * Content in README.md file
+   * Sixth branch uploaded
+
 # Version Four
 Version Content
 ---------------
 * New Files
    * Card & Cards folder
-   * Card
-   * Cards 
+   * Card.jsx
+   * Cards.jsx 
   
 * Modified Files
   * App.jsx
@@ -14,7 +44,7 @@ Version Content
 * Development
    * App.jsx : create state - fetch api - link for cors - props to Nav - render cards
    * SetNav.jsx : create state - handleSearch - Listeners: onChange & onClick - get list id - insert real id
-     > RealId: getCompleteSaintList mapToList pushRealIdOnarray getInputNumber ReturnRealId from input-subindiceArray
+     > RealId: getCompleteSaintList mapToList pushRealIdOnArray getInputNumber ReturnRealId from input-subIndexArray
    * Nav.jsx : props to SetNav   
    * Card: receives props, returns h3 with respective properties
      > name image constellation techniques rank

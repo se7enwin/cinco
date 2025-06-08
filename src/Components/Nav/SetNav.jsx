@@ -32,9 +32,9 @@ export default function SetNav(props) {
 
     }
     return (
-        <div>
+        <div id='Nav'>
             {/* Input listener - active handler */}
-            <input type='search' placeholder='Enter Saint - 1 to 5' onChange={handleSearch} />
+            <input id='input' type='search' placeholder='Enter Saint - 1 to 5' onChange={handleSearch} />
             {/* Onclick listener - active getApi */}
             <button onClick={() => { if (id !== '') { props.getApi(id) } }}>Search</button>
         </div>

@@ -19,23 +19,21 @@ export default function App() {
     async function getApi(id) {
         try {
             //Get saint
-            await fetch(`${cors}${api}${id}`).then(a => a.json().then(b => setSaint(old => [...old, b?.data])))
+            await fetch(`${process.env.REACT_APP_API_URL}${id}`).then(a => a.json().then(b => setSaint(old => [...old, b?.data])))
 
         } catch (error) { console.log(error) }
     }
 
 
-
     return (
-        // Main Render Tag
         <div>
 
             {/* Add first css attribute from jsx syntax */}
-            <h3 style={{ color: 'green' }}>Function Component from Local Jsx </h3>
+            <h3 id='five' style={{ color: 'green' }}>Function Component from Local Jsx </h3>
+            <Link target="_blank" to="https://cors-anywhere.herokuapp.com/corsdemo"><span>Enable Cors for a while</span></Link>
+            {/*Render Nav - Attach props */}
             <Nav getApi={getApi} cors={cors} />
-            {/* Click and Enable Cors for a while */}
-            <Link target="_blank" to="https://cors-anywhere.herokuapp.com/corsdemo"><h6>Enable Cors for a while</h6></Link>
-            {/* Id for first query */}
+            {/*Render Cards - Attach props */}
             <Cards saint={saint} />
             <Routes>
                 {/* url path to About.jsx*/}
